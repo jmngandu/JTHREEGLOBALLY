@@ -10,46 +10,20 @@ body{
     justify-content: space-between;
     align-items: center;
 }
+.logo{
+    font-size: large;
+    color: red;
+}
 .navs{
     display: flex;
     list-style-type: none;
-    
+       
 }
 .navs>li{
     padding: 10px;
+    margin-right: 10px;
 }
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#btn{
-    color: white;
-    background-color: grey;
-    padding: 10px 20px;
-    border-radius: 10px;
-    border: none;
-    margin:auto;
-}
-#btn:hover{
-    background-color: blanchedalmond;
-    color: red;
-}
 
