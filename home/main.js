@@ -1,3 +1,3 @@
 const btn = document.querySelector("#btn").addEventListener("click", ()=>{
-    alert("please the system under construction")
+    alert("please wait the system is under construction")
 });
