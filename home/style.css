@@ -8,12 +8,15 @@ body{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    height: 100vh;
+    width: 100vw;
 }
 /*HEADER SECTION*/
 .hearder-section{
     display: flex;
     justify-content: space-between;
     align-items: center;
+   
 }
 .logo{
     font-size: large;
