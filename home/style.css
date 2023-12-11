@@ -8,6 +8,7 @@ body{
     padding: 10px 20px;
     border-radius: 10px;
     border: none;
+    margin:auto;
 }
 #btn:hover{
     background-color: blanchedalmond;
