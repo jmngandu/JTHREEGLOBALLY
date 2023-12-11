@@ -4,6 +4,42 @@ body{
     width: 100%;
     
 }
+/*HEADER SECTION*/
+.hearder-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navs{
+    display: flex;
+    list-style-type: none;
+    
+}
+.navs>li{
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #btn{
     color: white;
     background-color: grey;
@@ -16,3 +52,4 @@ body{
     background-color: blanchedalmond;
     color: red;
 }
+
