@@ -31,6 +31,21 @@ body{
     padding: 10px;
     margin-right: 10px;
 }
+/*MAIN SECTION*/
+
+#main-btn{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    color: antiquewhite;
+}
+
+/*FOOTER*/
+
+.footer-section{
+    display: flex;
+    justify-content: space-around;
+}
 
 
 
