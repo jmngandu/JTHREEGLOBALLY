@@ -20,8 +20,10 @@ body{
    
 }
 .logo{
-    font-size: large;
-    color: red;
+    font-size:x-large;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:burlywood;
 }
 .navs{
     display: flex;
@@ -31,7 +33,10 @@ body{
 .navs>li{
     padding: 10px;
     margin-right: 10px;
-}
+   }
+   .navs>li>a{
+    text-decoration: none;
+   }
 /*MAIN SECTION*/
 
 #main-btn{
@@ -44,6 +49,7 @@ body{
 #main-btn:hover{
     color: red;
     background-color:antiquewhite;
+    cursor: wait;
 }
 
 /*FOOTER*/
@@ -51,6 +57,9 @@ body{
 .footer-section{
     display: flex;
     justify-content: space-around;
+}
+.footer-section>h4>a{
+    text-decoration: none;
 }
 
 
