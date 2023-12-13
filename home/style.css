@@ -2,9 +2,7 @@ body{
     text-align:center;
     height: 100vh;
     width: 100%;
-  
-    
-}
+  }
 .wrapper{
     display: flex;
     justify-content: space-between;
