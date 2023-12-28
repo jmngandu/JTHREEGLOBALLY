@@ -26,7 +26,6 @@ body{
 .navs{
     display: flex;
     list-style-type: none;
-       
 }
 .navs>li{
     padding: 10px;
