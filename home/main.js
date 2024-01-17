@@ -3,8 +3,12 @@
 //     alert("please wait the system is under construction")
 //     document.body.style.backgroundColor = 'grey';
 // });
-
+let count = 0
+function prnt(){
+    alert("am done")
+}
 let countEl = document.getElementById("count-el")
 function countBtn(){
-    alert("hello")
+   countEl.textContent = `count: ${count+=1}`
+    prnt()
 }
