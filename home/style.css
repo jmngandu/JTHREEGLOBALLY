@@ -61,6 +61,10 @@ body{
 .footer-section{
     display: flex;
     justify-content: space-around;
+    background-color:antiquewhite;
+    height: 10vh;
+    align-items: center;
+
 }
 .footer-section>h4>a{
     text-decoration: none;
