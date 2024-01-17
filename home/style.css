@@ -42,6 +42,11 @@ body{
    }
    .navs>li>a{
     text-decoration: none;
+    color:burlywood;
+    
+   }
+   .navs>li>a:hover{
+    color: crimson;
    }
 
 /*MAIN SECTION*/
