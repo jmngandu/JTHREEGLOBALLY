@@ -26,7 +26,11 @@ body{
     font-size:x-large;
     font-weight: bold;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.logo a{
     color:burlywood;
+    text-decoration: none;
 }
 .navs{
     display: flex;
