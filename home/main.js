@@ -8,8 +8,12 @@ function ourProducts(){
     alert("please wait ...")
     buyProducts.innerHTML = "<button onclick='ourProducts()'>THANKS FOR SHOPPING</button>"
 }
-const helpTag = document.getElementById("help-tag")
+let helpTag = document.getElementById("help-tag")
 helpTag.addEventListener("dblclick",()=>{
-    document.body.style.backgroundColor = 'dodgerblue';
     document.body.style.backgroundColor = 'grey';
+    helpTag.innerText = "DARK THEME"
+})
+helpTag.addEventListener("click",()=>{
+    document.body.style.backgroundColor = 'white';
+    helpTag.innerText = "LIGHT THEME"
 })
