@@ -6,6 +6,7 @@ const btn = document.querySelector("#main-btn").addEventListener("click", ()=>{
 
 function ourProducts(){
     alert("please wait ...")
+    buyProducts.innerHTML = "<button onclick='ourProducts()'>THANKS FOR SHOPPING</button>"
 }
 const helpTag = document.getElementById("help-tag")
 helpTag.addEventListener("dblclick",()=>{
