@@ -78,7 +78,15 @@ body{
 .footer-section>h4>a{
     text-decoration: none;
 }
-
+#buy-products button {
+    background: lightcoral;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+}
 
 
 
