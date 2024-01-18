@@ -1,11 +1,14 @@
+const buyProducts = document.getElementById("buy-products")
 const btn = document.querySelector("#main-btn").addEventListener("click", ()=>{
-    document.body.style.backgroundColor = 'dodgerblue';
-    alert("please wait the system is under construction")
-    document.body.style.backgroundColor = 'grey';
+    // document.body.style.backgroundColor = 'dodgerblue';
+    buyProducts.innerHTML = "<button onclick='ourProducts()'>EXPLORE PRODUCTS</button>"
 });
 
+function ourProducts(){
+    alert("please wait ...")
+}
 const helpTag = document.getElementById("help-tag")
-
 helpTag.addEventListener("dblclick",()=>{
-    helpTag.innerHTML = "<ul> Help page not Ready</ul>"
+    document.body.style.backgroundColor = 'dodgerblue';
+    document.body.style.backgroundColor = 'grey';
 })
