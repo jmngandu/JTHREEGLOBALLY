@@ -17,3 +17,11 @@ helpTag.addEventListener("click",()=>{
     document.body.style.backgroundColor = 'white';
     helpTag.innerText = "LIGHT THEME"
 })
+
+
+
+let faqs = document.getElementById("faqs")
+let storeFaqs = localStorage.setItem("faqs", "what is jthreeGlobally")
+let renderFaqs = localStorage.getItem("faqs")
+console.log(renderFaqs)
+localStorage.clear()
