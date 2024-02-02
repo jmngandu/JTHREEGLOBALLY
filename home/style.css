@@ -140,7 +140,7 @@ body{
 .footer-section{
     display: flex;
     justify-content: space-around;
-    background-color:lightgreen;
+    background:linear-gradient(pink, green);
     height: 10vh;
     align-items: center;
 
