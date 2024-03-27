@@ -1,2 +1,2 @@
 # JTHREEGLOBALLY
-> welcome to jthreeglobally.com
+> welcome to jthreeglobally
