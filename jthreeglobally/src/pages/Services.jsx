@@ -5,7 +5,7 @@ export const Services=()=>{
     return(
         <>
         <Header/>
-        <h1>SERVICES</h1>
+        <h1>SERVICES WE OFFER</h1>
         </>
     )
 }
