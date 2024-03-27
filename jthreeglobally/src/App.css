@@ -4,3 +4,12 @@
   padding: 2rem;
   text-align: center;
 }
+/*HEADER SECTION*/
+.header-section, .header-navs{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#navs{
+  margin: 1rem;
+}

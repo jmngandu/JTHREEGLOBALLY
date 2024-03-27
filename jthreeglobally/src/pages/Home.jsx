@@ -4,7 +4,9 @@ export const Home =()=>{
     return(
         <>
         <Header/>
-        <h1>Home</h1>
+        <div className="home-section">
+            <h1>WELCOME TO JTHREEGLOBALLY</h1>
+        </div>
         </>
     )
 }
