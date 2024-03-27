@@ -15,3 +15,24 @@
   text-decoration: none;
   color: #fff;
 }
+/*HOME HEROS*/
+.home-heros{
+  display: flex;
+  justify-content: space-around;
+}
+#hero-pages{
+  width: 100%;
+  background-color: lightcoral;
+  padding: .5rem;
+  margin: 1rem;
+}
+.pages-files{
+  width: 100%;
+  background-color: cadetblue;
+  height: 40vh;
+}
+a.active{
+  background-color: lightblue;
+  border-radius: 2rem;
+  padding: .5rem 2rem;
+}

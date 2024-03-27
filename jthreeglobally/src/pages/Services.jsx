@@ -1,10 +1,11 @@
 import { Header } from "../Components/Header"
 
-export const Dashboard = () =>{
+export const Services=()=>{
+
     return(
         <>
         <Header/>
-        <h1>Dashboard</h1>
+        <h1>SERVICES</h1>
         </>
     )
 }
