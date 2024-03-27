@@ -1,2 +1,0 @@
-# JTHREEGLOBALLY
-> welcome to jthreeglobally
