@@ -7,10 +7,11 @@ export const Header = ()=>{
             <div className="header-navs">
                 <NavLink id="navs" to="/">HOME</NavLink>
                 <NavLink id="navs" to="/Dashboard">DASHBOARD</NavLink>
-                <NavLink id="navs" to="/Login">LOGIN</NavLink>
+                <NavLink id="navs" to="/Services">SERVICES</NavLink>
             </div>
             <div>
-            <NavLink id="navs" to="/Services">SERVICES</NavLink>
+            <NavLink id="navs" to="/Login">LOGIN</NavLink>
+            
             </div>
         </div>
     )
