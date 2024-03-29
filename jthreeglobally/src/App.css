@@ -13,7 +13,10 @@
 #logo{
   text-decoration: none;
   font-size: 2rem;
-  color: #fff;
+  padding: .2rem;
+  color: #000;
+  background-color:lightblue;
+  border-radius: 50%;
 }
 #logo img{
   width: 2rem;
