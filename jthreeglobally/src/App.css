@@ -10,13 +10,8 @@
   align-items: center;
   justify-content: space-between;
 }
-#logo{
-  text-decoration: none;
-  color: #000;
-  background-color:burlywood;
-  padding: 1rem;
-  border-radius: 50%;
-  font-weight: bold;
+#logo img{
+  width: 2rem;
 }
 #navs{
   margin: 1rem;
