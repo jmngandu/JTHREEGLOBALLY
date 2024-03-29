@@ -10,8 +10,10 @@
   align-items: center;
   justify-content: space-between;
 }
-#logo img{
-  width: 9rem;
+#logo{
+  color: ghostwhite;
+  text-decoration: none;
+  font-size: 1.5rem;
 }
 #navs{
   margin: 1rem;

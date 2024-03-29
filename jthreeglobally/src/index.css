@@ -7,6 +7,8 @@
   color: rgba(255, 255, 255, 0.87);
   /* background-color: #242424; */
   background-color: rgb(101, 125, 145);
+  background-image: url(./images/background1.png);
+  background-size: cover;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
