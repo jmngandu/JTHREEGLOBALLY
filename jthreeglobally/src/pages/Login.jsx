@@ -4,8 +4,8 @@ export const Login=()=>{
 
         <>
         <div className="login-page">
-        <h1>Login Here</h1>
-        <h2>welcome to jthreeglobally</h2>
+        <h1>Login</h1>
+        <small>welcome to jthreeglobally</small>
         </div>
         </>
     )
