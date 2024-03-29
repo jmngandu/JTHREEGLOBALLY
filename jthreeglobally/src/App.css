@@ -10,16 +10,8 @@
   align-items: center;
   justify-content: space-between;
 }
-#logo{
-  text-decoration: none;
-  font-size: 2rem;
-  padding: .2rem;
-  color: #000;
-  background-color:lightblue;
-  border-radius: 50%;
-}
 #logo img{
-  width: 2rem;
+  width: 9rem;
 }
 #navs{
   margin: 1rem;
