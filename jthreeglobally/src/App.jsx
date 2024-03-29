@@ -6,6 +6,7 @@ import { Home } from './pages/Home'
 import { NotFound } from './Components/NotFound'
 import { Services } from './pages/Services'
 import { Login } from './pages/Login'
+import { Signup } from './pages/Signup'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <Route path="Dashboard" element={<Dashboard/>}/>
       <Route path='Services' element={<Services/>}/>
       <Route path='Login' element={<Login/>}/>
+      <Route path='Signup' element={<Signup/>}/>
       <Route path='*' element={<NotFound/>}/>
      </Routes>
     </>

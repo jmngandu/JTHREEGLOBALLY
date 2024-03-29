@@ -43,8 +43,37 @@ a.active{
   padding: .5rem 2rem;
 }
 /*LOGIN*/
+.login-page{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+}
 .user-login{
   display: flex;
   flex-direction: column;
   align-items: center;
+ 
 }
+#user-input, .input-btn{
+  padding: 1rem 2rem;
+  text-align: center;
+  border-radius: 2rem;
+  outline: none;
+  border: none;
+  margin: 1rem;
+}
+.input-btn a{
+  color: white;
+  text-decoration: none;
+}
+.input-btn:hover{
+  background-color: lightgray;
+  color: #000;
+  transition: 2s;
+}
+#links{
+  color: #fff;
+}
+/*SIGNUP*/
