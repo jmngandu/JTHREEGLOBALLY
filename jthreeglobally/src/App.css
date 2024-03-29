@@ -42,3 +42,9 @@ a.active{
   border-radius: 2rem;
   padding: .5rem 2rem;
 }
+/*LOGIN*/
+.user-login{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
