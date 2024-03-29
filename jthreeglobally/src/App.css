@@ -27,15 +27,16 @@
 }
 #hero-pages{
   width: 100%;
-  background-color: lightcoral;
   padding: .5rem;
   margin: 1rem;
+  background: rgba(204, 204, 204, 0.2);
 }
 .pages-files{
   width: 100%;
-  background-color: cadetblue;
   height: 40vh;
+  background: rgba(204, 204, 204, 0.1);
 }
+
 a.active{
   background-color: lightblue;
   border-radius: 2rem;
