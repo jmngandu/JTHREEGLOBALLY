@@ -86,6 +86,6 @@ a.active{
   flex-direction: column;
   align-items: center;
 }
-/* .signup-inputs >#user-input{
+.signup-inputs >#user-input{
   width: 35%;
-} */
+}
