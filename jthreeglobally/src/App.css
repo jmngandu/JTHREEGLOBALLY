@@ -4,6 +4,9 @@
   padding: 2rem;
   text-align: center;
 }
+body{
+  user-select: none;
+}
 /*HEADER SECTION*/
 .header-section, .header-navs{
   display: flex;
