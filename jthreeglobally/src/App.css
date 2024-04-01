@@ -52,6 +52,7 @@ a.active{
   width: 100%;
   height: 100vh;
   justify-content: center;
+  border:1px solid coral;
 }
 .user-login{
   display: flex;
@@ -83,6 +84,7 @@ a.active{
 .signup-page{
   width:100%;
   height: 100vh;
+  border:1px solid coral;
 }
 .signup-inputs{
   display: flex;
