@@ -9,8 +9,9 @@ export const MyProfile=()=>{
         <>
         <Header/>
         <h1>{welcome}</h1>
-        <small onClick={()=>setWelcome(`Welcome ${unknownUser}`)}>Name</small>
-        <h2>My profile</h2>
+        <small onClick={()=>setWelcome(`Welcome`)}>logout</small>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente alias laboriosam placeat nam iste cumque unde id quam ab ea? Rerum, hic officiis? Iure atque veritatis sequi quod aperiam ipsa.</p>
+      
         </>
     )
 }
