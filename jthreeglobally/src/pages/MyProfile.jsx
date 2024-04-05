@@ -9,10 +9,10 @@ export const MyProfile=()=>{
         <>
         <Header/>
         <h1>{welcome}</h1>
-        <p><small>Name: </small>James Ngandu</p>
-        <p><small>Username: </small>{userName}</p>
-        <p><small>Aboutme: </small>Am a computer scientists </p>
-        <small onClick={()=>setWelcome(`Welcome`)}>logout</small>
+        <p>Name: <small>James Ngandu</small></p>
+        <p>Username: <small>{userName}</small></p>
+        <p>Aboutme: <small>Am a computer scientists </small></p>
+        <h3 onClick={()=>setWelcome(`Welcome`)}>logout</h3>
         
       
         </>
