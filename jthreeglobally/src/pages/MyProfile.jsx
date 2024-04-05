@@ -1,11 +1,11 @@
 import { Header } from "../Components/Header"
 
-export const Services=()=>{
+export const MyProfile=()=>{
 
     return(
         <>
         <Header/>
-        <h1>SERVICES WE OFFER</h1>
+        <h1>MY PROFILE</h1>
         </>
     )
 }

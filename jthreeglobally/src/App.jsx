@@ -4,9 +4,9 @@ import './App.css'
 import { Dashboard } from './pages/Dashboard'
 import { Home } from './pages/Home'
 import { NotFound } from './Components/NotFound'
-import { Services } from './pages/Services'
 import { Login } from './pages/Login'
 import { Signup } from './pages/Signup'
+import { MyProfile } from './pages/MyProfile'
 
 function App() {
 
@@ -15,7 +15,7 @@ function App() {
      <Routes>
       <Route path='/' element={<Home/>}/>
       <Route path="Dashboard" element={<Dashboard/>}/>
-      <Route path='Services' element={<Services/>}/>
+      <Route path='Profile' element={<MyProfile/>}/>
       <Route path='Login' element={<Login/>}/>
       <Route path='Signup' element={<Signup/>}/>
       <Route path='*' element={<NotFound/>}/>
