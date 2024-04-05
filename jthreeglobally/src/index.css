@@ -5,10 +5,8 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  /* background-color: #242424; */
-  background-color: rgb(101, 125, 145);
-  background-image: url(./images/background1.png);
-  background-size: cover;
+  background-color: #242424;
+  /* background: rgba(204, 204, 204, 0.2); */
   background-repeat: no-repeat;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -18,6 +16,8 @@
 body{
   width: 100%;
   height: 100vh;
+  background-image: url(./images/background1.png);
+  background-size: cover;
 }
 
 
