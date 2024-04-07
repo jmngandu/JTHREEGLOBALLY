@@ -11,7 +11,7 @@ export const MyProfile=()=>{
         <h1>{welcome}</h1>
         <p>Name: <small>JAMES NGANDU</small></p>
         <p>Username: <small>{userName}</small></p>
-        <p>Aboutme: <small>Am a computer scientist </small></p>
+        <p>aboutme: <small>Am a computer scientist </small></p>
         <h3 onClick={()=>setWelcome(`Welcome`)}>logout</h3>
         
       
