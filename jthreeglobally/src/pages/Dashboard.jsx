@@ -34,6 +34,66 @@ export const Dashboard = () =>{
                 <p>quantity</p>
                 <p>add to cart</p>
                 </div>
+                <div className="products">
+                <p>ksh 50</p>
+                <p>quantity</p>
+                <p>add to cart</p>
+                </div>
+                <div className="products">
+                <p>ksh 50</p>
+                <p>quantity</p>
+                <p>add to cart</p>
+                </div>
+                <div className="products">
+                <p>ksh 50</p>
+                <p>quantity</p>
+                <p>add to cart</p>
+                </div>
+                <div className="products">
+                <p>ksh 50</p>
+                <p>quantity</p>
+                <p>add to cart</p>
+                </div>
+                <div className="products">
+                <p>ksh 50</p>
+                <p>quantity</p>
+                <p>add to cart</p>
+                </div>
+                <div className="products">
+                <p>ksh 50</p>
+                <p>quantity</p>
+                <p>add to cart</p>
+                </div>
+                <div className="products">
+                <p>ksh 50</p>
+                <p>quantity</p>
+                <p>add to cart</p>
+                </div>
+                <div className="products">
+                <p>ksh 50</p>
+                <p>quantity</p>
+                <p>add to cart</p>
+                </div>
+                <div className="products">
+                <p>ksh 50</p>
+                <p>quantity</p>
+                <p>add to cart</p>
+                </div>
+                <div className="products">
+                <p>ksh 50</p>
+                <p>quantity</p>
+                <p>add to cart</p>
+                </div>
+                <div className="products">
+                <p>ksh 50</p>
+                <p>quantity</p>
+                <p>add to cart</p>
+                </div>
+                <div className="products">
+                <p>ksh 50</p>
+                <p>quantity</p>
+                <p>add to cart</p>
+                </div>
                 
             </div>
         </div>

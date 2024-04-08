@@ -106,13 +106,18 @@ a.active{
   border: .1rem solid salmon;
   padding: 1rem;
   text-align-last: left;
+  margin: 1rem;
+  height: 15rem;
 }
-.products-list, .products{
+.products-list{
   border: .1rem solid salmon;
   padding: 1rem;
-  text-align-last: left;
+ justify-content: center;
   display: flex;
+  flex-wrap: wrap;
 }
 .products{
   border: .1rem solid greenyellow;
+  padding: 2rem;
+  margin: 1rem;
 }
