@@ -17,10 +17,10 @@ export const Products=()=>{
         <div className="products-section">
             <div className="products-page">
                 <p>Category</p>
-                <h3>Fruits</h3>
-                <h3>Vegetables</h3>
-                <h3>Proteins</h3>
-                <h3>Dairy</h3>
+                <h3 className="category-dash">Fruits</h3>
+                <h3 className="category-dash">Vegetables</h3>
+                <h3 className="category-dash">Proteins</h3>
+                <h3 className="category-dash">Dairy</h3>
             </div>
             <div className="products-pages">
             {ProductsList}

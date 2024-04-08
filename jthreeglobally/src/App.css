@@ -120,6 +120,9 @@ display: none;
   box-shadow: lightgray 0px 1px 15px;
 
 }
+.products-list:hover{
+  scale:1.1;
+}
 .products{
   padding:1rem 2rem;
 }
@@ -129,6 +132,10 @@ display: none;
   flex-wrap: wrap;
   justify-content: center;
   border-radius: 1rem;
+}
+.category-dash:hover{
+  text-decoration: underline;
+  color: coral;
 }
 /*PROFILE SECTION*/
 .profile-section{
