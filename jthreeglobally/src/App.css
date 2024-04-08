@@ -110,7 +110,7 @@ a.active{
   height: 15rem;
 }
 .products-list{
-  border: .1rem solid salmon;
+  border: .3rem solid salmon;
   padding: 1rem;
  justify-content: center;
   display: flex;
@@ -120,4 +120,12 @@ a.active{
   border: .1rem solid greenyellow;
   padding: 2rem;
   margin: 1rem;
+}
+/*PROFILE SECTION*/
+.profile-section{
+  display: flex;
+  justify-content: space-around;
+}
+.order-categories{
+  text-align: left;
 }

@@ -8,10 +8,25 @@ export const MyProfile=()=>{
     return(
         <>
         <Header/>
-        <h1>{welcome}</h1>
-        <p>name: <small>JAMES NGANDU</small></p>
-        <p>username: <small>{userName}</small></p>
-        <p>aboutme: <small>Am a computer scientist </small></p>
+        <div className="profile-section">
+            <div className="my-info">
+                <h1>{welcome}</h1>
+                <p>name: <small>JAMES NGANDU</small></p>
+                <p>username: <small>{userName}</small></p>
+                <p>aboutme: <small>Am a computer scientist </small></p>
+            </div>
+            <div className="my-order">
+                <p>cart</p>
+                <div className="order-categories">           
+                <p>Category</p>
+                <h3>fruits</h3>
+                <h3>Vegetables</h3>
+                <h3>Proteins</h3>
+                <h3>Dairy</h3>
+                </div>
+            </div>
+
+        </div>
         <h3 onClick={()=>setWelcome(`Welcome`)}>logout</h3>
         
       
