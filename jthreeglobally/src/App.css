@@ -94,3 +94,25 @@ a.active{
 .signup-inputs >#user-input{
   width: 35%;
 }
+/*Dashboard*/
+.products-section{
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  color: #000;
+  padding: 2rem 1rem;
+}
+.products-page{
+  border: .1rem solid salmon;
+  padding: 1rem;
+  text-align-last: left;
+}
+.products-list, .products{
+  border: .1rem solid salmon;
+  padding: 1rem;
+  text-align-last: left;
+  display: flex;
+}
+.products{
+  border: .1rem solid greenyellow;
+}
