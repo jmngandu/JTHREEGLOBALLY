@@ -95,6 +95,9 @@ a.active{
   width: 35%;
 }
 /*Dashboard*/
+.header-dash .hide{
+display: none;
+}
 .products-section{
   display: flex;
   justify-content: space-between;
@@ -110,16 +113,20 @@ a.active{
   height: 15rem;
 }
 .products-list{
-  border: .3rem solid salmon;
+  border: .2rem solid salmon;
   padding: 1rem;
- justify-content: center;
-  display: flex;
-  flex-wrap: wrap;
+  margin: 1rem;
+  background-color: #000;
+  border-radius: 1rem;
 }
 .products{
-  border: .1rem solid greenyellow;
-  padding: 2rem;
-  margin: 1rem;
+  padding:1rem 2rem;
+}
+.products-pages{
+  border: .2rem solid greenyellow;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 /*PROFILE SECTION*/
 .profile-section{

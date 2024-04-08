@@ -11,6 +11,7 @@ export const Products=()=>{
                 <h3>Proteins</h3>
                 <h3>Dairy</h3>
             </div>
+            <div className="products-pages">
             <ProductsItems 
             capital="70"
             quantity="5"
@@ -42,6 +43,7 @@ export const Products=()=>{
             purchase="add to cart"
             />
            
+            </div>
         </div>
 
         </>

@@ -7,7 +7,9 @@ export const MyProfile=()=>{
     const [welcome, setWelcome] = useState(`Welcome ${userName}`)
     return(
         <>
+        <div className="header-dash">
         <Header/>
+        </div>
         <div className="profile-section">
             <div className="my-info">
                 <h1>{welcome}</h1>
