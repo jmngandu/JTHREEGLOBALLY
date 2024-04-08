@@ -106,27 +106,29 @@ display: none;
   padding: 2rem 1rem;
 }
 .products-page{
-  border: .1rem solid salmon;
+  border: .1rem solid gray;
   padding: 1rem;
   text-align-last: left;
   margin: 1rem;
   height: 15rem;
+  border-radius: 1rem;
 }
 .products-list{
-  border: .2rem solid salmon;
   padding: 1rem;
   margin: 1rem;
-  background-color: #000;
   border-radius: 1rem;
+  box-shadow: lightgray 0px 1px 15px;
+
 }
 .products{
   padding:1rem 2rem;
 }
 .products-pages{
-  border: .2rem solid greenyellow;
+  border: .2rem solid lightgrey;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  border-radius: 1rem;
 }
 /*PROFILE SECTION*/
 .profile-section{

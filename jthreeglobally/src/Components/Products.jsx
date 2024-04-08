@@ -1,5 +1,16 @@
 import { ProductsItems } from "./ProductsItems"
+import ProductsData from "./ProductsData"
 export const Products=()=>{
+    const ProductsList = ProductsData.map(pro=>{
+        return(
+            <>
+                 <ProductsItems 
+                 key={pro.id}
+                pro={pro}
+                 />
+            </>
+        )
+    })
     return(
         <>
         <h1>OUR PRODUCTS</h1>
@@ -12,37 +23,7 @@ export const Products=()=>{
                 <h3>Dairy</h3>
             </div>
             <div className="products-pages">
-            <ProductsItems 
-            capital="70"
-            quantity="5"
-            purchase="add to cart"
-            />
-            <ProductsItems 
-            capital="70"
-            quantity="5"
-            purchase="add to cart"
-            />
-            <ProductsItems 
-            capital="70"
-            quantity="5"
-            purchase="add to cart"
-            />
-            <ProductsItems 
-            capital="70"
-            quantity="5"
-            purchase="add to cart"
-            />
-            <ProductsItems 
-            capital="70"
-            quantity="5"
-            purchase="add to cart"
-            />
-            <ProductsItems 
-            capital="70"
-            quantity="5"
-            purchase="add to cart"
-            />
-           
+            {ProductsList}
             </div>
         </div>
 

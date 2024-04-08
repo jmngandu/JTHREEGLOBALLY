@@ -4,9 +4,9 @@ export const ProductsItems=(myProducts)=>{
         <>
          <div className="products-list">
                 <div className="products">
-                <p>{myProducts.capital}</p>
-                <p>{myProducts.quantity}</p>
-                <p>{myProducts.purchase}</p>
+                <p>{myProducts.pro.capital}</p>
+                <p>{myProducts.pro.quantity}</p>
+                <p>{myProducts.pro.purchase}</p>
                 </div>                
             </div>
         </>
