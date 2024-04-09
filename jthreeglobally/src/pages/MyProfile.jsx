@@ -14,6 +14,7 @@ export const MyProfile=()=>{
             <div className="my-info">
                 <h1>{welcome}</h1>
                 <p>name: <small>JAMES NGANDU</small></p>
+                <img src="jthreeglobally/src/images/green.jpg"/>
                 <p>username: <small>{userName}</small></p>
                 <p>aboutme: <small>Am a computer scientist </small></p>
             </div>
