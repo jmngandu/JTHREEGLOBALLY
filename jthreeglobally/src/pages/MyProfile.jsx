@@ -14,8 +14,8 @@ export const MyProfile=()=>{
             <div className="my-info">
                 <h1>{welcome}</h1>
                 <img src="/src/images/green.jpg" id="profile-img"/>
-                <p>name: <small>JAMES NGANDU</small></p>
-                <p>username: <small>{userName}</small></p>
+                <p>Name: <small>JAMES NGANDU</small></p>
+                <p>Username: <small>{userName}</small></p>
                 <p>Email: <small>jamesmngandu@gmail.com</small></p>
             </div>
             <div className="my-order">
