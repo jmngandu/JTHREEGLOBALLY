@@ -1,5 +1,6 @@
 import { Header } from "../Components/Header"
 import { useState } from "react"
+import { Link } from "react-router-dom"
 
 export const MyProfile=()=>{
     let unknownUser = 'user'
@@ -30,7 +31,7 @@ export const MyProfile=()=>{
             </div>
 
         </div>
-        <h3 onClick={()=>setWelcome(`Welcome`)}>logout</h3>
+        <h3 onClick={()=>setWelcome(`Welcome`)}><Link to="/">logout</Link></h3>
         
       
         </>
