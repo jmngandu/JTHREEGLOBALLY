@@ -137,6 +137,9 @@ display: none;
   text-decoration: underline;
   color: coral;
 }
+.products img{
+  width: 40px;
+}
 /*PROFILE SECTION*/
 .profile-section{
   display: flex;
