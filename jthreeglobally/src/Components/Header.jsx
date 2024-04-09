@@ -6,7 +6,7 @@ export const Header = ()=>{
             <Link to="/" id="logo">JTHREEGLOBALLY</Link>
             <div className="header-navs">
                 <NavLink id="navs" to="/">HOME</NavLink>
-                <NavLink id="navs" to="/Dashboard">DASHBOARD</NavLink>
+                <NavLink id="navs" to="/login">DASHBOARD</NavLink>
                 <NavLink id="navs" to="/Profile">PROFILE</NavLink>
             </div>
             <div>
