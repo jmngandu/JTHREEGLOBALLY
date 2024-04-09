@@ -145,3 +145,7 @@ display: none;
 .order-categories{
   text-align: left;
 }
+#profile-img{
+  width: 100px;
+  border-radius: 50%;
+}
