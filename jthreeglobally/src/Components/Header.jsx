@@ -11,7 +11,6 @@ export const Header = ()=>{
             </div>
             <div>
             <NavLink id="navs" className="hide" to="/Login">LOGIN</NavLink>
-            
             </div>
         </div>
     )
