@@ -87,12 +87,12 @@ export default [
     quantity: "9",
     purchase: "Add to cart",
   },
-  {
-    id: 12,
-    img: "login.jpg",
-    name: "Jackfruit",
-    capital: "10",
-    quantity: "7",
-    purchase: "Add to cart",
-  },
+  // {
+  //   id: 12,
+  //   img: "login.jpg",
+  //   name: "Jackfruit",
+  //   capital: "10",
+  //   quantity: "7",
+  //   purchase: "Add to cart",
+  // },
 ];
