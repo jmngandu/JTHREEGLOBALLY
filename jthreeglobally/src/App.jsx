@@ -11,14 +11,14 @@ import { MyProfile } from "./pages/MyProfile";
 function App() {
   return (
     <>
-      {/* <Routes>
+      <Routes>
         <Route path="/" element={<Home />} />
         <Route path="Dashboard" element={<Dashboard />} />
         <Route path="Profile" element={<MyProfile />} />
         <Route path="Login" element={<Login />} />
         <Route path="Signup" element={<Signup />} />
         <Route path="*" element={<NotFound />} />
-      </Routes> */}
+      </Routes>
     </>
   );
 }
