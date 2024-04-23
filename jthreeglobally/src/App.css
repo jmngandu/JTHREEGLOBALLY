@@ -71,12 +71,11 @@ a.active {
   margin: 1rem 0.2rem;
 }
 .input-btn a {
-  color: white;
+  color: #000;
   text-decoration: none;
 }
 .input-btn:hover {
-  background-color: lightgray;
-  color: #000;
+  background-color: gray;
   transition: 2s;
 }
 #links {
